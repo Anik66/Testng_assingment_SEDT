@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="automate daily finance management">
+    <test name="register users">
+        <classes>
+            <class name ="testrunner.RegistrationTestRunner"> </class>
+
+        </classes>
+
+    </test>
+
+    <test name="get the assert">
+        <classes>
+            <class name ="setup.ReadGmail"> </class>
+
+        </classes>
+
+
+
+    </test>
+
+
+        <test name="recover paswword">
+            <classes>
+                <class name ="testrunner.SendGmailTestRunner"> </class>
+
+            </classes>
+
+        </test>
+
+
+
+
+
+    <test name="get the mail id">
+        <classes>
+            <class name ="setup.ReadGmailPassword"> </class>
+
+        </classes>
+
+
+
+    </test>
+
+    <test name="reset password">
+        <classes>
+            <class name ="testrunner.passwordsettestrunner"> </class>
+
+        </classes>
+
+
+
+    </test>
+
+    <test name="fill with csv">
+        <classes>
+            <class name ="testrunner.Logintestrunner"> </class>
+
+        </classes>
+
+
+
+    </test>
+
+    <test name="Updated with New Gmail">
+        <classes>
+            <class name ="testrunner.UpdatedGmailTestRunner"> </class>
+
+        </classes>
+
+
+
+    </test>
+
+    <test name="Admin  with New Gmail">
+        <classes>
+            <class name ="testrunner.AdminLoginTestRunner"> </class>
+
+        </classes>
+
+
+
+    </test>
+
+
+
+
+
+</suite>
